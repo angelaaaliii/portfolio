@@ -1,0 +1,17 @@
+#case-study-item {
+  margin-top: 6vh;
+  width: 37.5vw;
+}
+
+#case-study-item-blurb {
+  margin-top: 1vh;
+}
+
+#case-study-item-tags {
+  margin-top: 1vh;
+  color: #495867;
+}
+
+#title {
+  font-size: calc(15px + 2vmin);
+}

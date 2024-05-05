@@ -1,0 +1,18 @@
+#work {
+  background-color: #F7F7FF;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+#work-title {
+  font-size: calc(30px + 2vmin);
+}
+
+#case-studies {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap:wrap;
+}

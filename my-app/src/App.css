@@ -1,0 +1,28 @@
+.header {
+  min-height: 15vh;
+  color: black;
+  display:inline-block;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  flex-wrap: wrap;
+  z-index: 100;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.824);
+}
+
+
+#name {
+  /* flex-wrap: wrap; */
+  font-size: calc(15px + 2vmin);
+  color: black;
+  text-align: left;
+  width: auto;
+}

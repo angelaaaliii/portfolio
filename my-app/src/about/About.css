@@ -1,0 +1,36 @@
+#about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 25vh;
+  padding-bottom: 5vh;
+}
+
+#about-imgs {
+  width: 40vw;
+  padding-right: 2.5vw;
+  padding-bottom: 5vh;
+  /* TODO change so image has same height as text 
+  rather than manually setting padding bottom to be 5*/
+}
+
+#about-info {
+  width: 40vw;
+  padding-left: 2.5vw;
+}
+
+#hello {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: calc(30px + 2vmin);
+}
+
+/* responsiveness */
+@media (max-width: 600px) {
+  #about {
+    flex-direction: column;
+  }
+} 
