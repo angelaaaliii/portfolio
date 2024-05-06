@@ -1,22 +1,32 @@
 import './CaseStudyItem.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function CaseStudyItem({title, blurb, tags, thumbnail, link}) {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    // window.location.href = `/${link}`;
+    console.log(link);
+    window.location.href = link;
+  }
+  
   return (
-    <div id="case-study-item">
-      <Link to={link}>
-        <img id ="case-study-item-img" src={thumbnail}></img>
+    // <div id="case-study-item" onClick={handleClick}>
+    <Link to={link}>
 
-        <a id="title" href="url">{title}</a>
+    <div id="case-study-item"> 
+      <img id ="case-study-item-img" src={thumbnail}></img>
 
-        <div id ="case-study-item-blurb">
-          <p>{blurb}</p>
-        </div>
+      <a id="title" href="url">{title}</a>
 
-        <div id = "case-study-item-tags">
-          <p>{tags}</p>
-        </div>
-      </Link>
+      <div id ="case-study-item-blurb">
+        <p>{blurb}</p>
+      </div>
+
+      <div id = "case-study-item-tags">
+        <p>{tags}</p>
+      </div>
     </div>
+
+    </Link>
   );
 }

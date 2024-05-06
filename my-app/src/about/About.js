@@ -16,9 +16,10 @@ export default function About() {
           I'm a current junior at Brown University, studying 
           Computer Science & Applied Mathematics with a focus on 
           software principles and systems.
+          TODO
         </p>
         <br></br>
-        <p>This summer I will be a software engineering intern at Microsoft, 
+        {/* <p>This summer I will be a software engineering intern at Microsoft, 
           working on Azure Cloud.
         </p>
         <p>Previously, I have been a software engineering intern at Raytheon 
@@ -27,7 +28,7 @@ export default function About() {
         <p>When I'm not at a computer, I'm either running, reading, crocheting, 
           exploring national parks, or adding new restaurants to my Beli!</p>
           <br></br>
-          <p>You can find me here: </p>
+          <p>You can find me here: </p> */}
       </div>
     </div>
   );

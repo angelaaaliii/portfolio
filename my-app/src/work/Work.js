@@ -10,6 +10,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 export default function Work() {
   return (
     <div id="work">
+      <Routes>
+        <Route path="/website-design" element={<CaseStudy3/>}></Route>
+      </Routes>
       <h1 id ="work-title">My Projects</h1>
 
       <div id = "case-studies">

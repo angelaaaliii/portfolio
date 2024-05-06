@@ -4,12 +4,13 @@ import './App.css';
 import NavBar from './components/NavBar';
 import About from './about/About';
 import Work from './work/Work';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CaseStudy3 from './work/CaseStudies/CaseStudy3';
 
 function App() {
   return (
     <ChakraProvider>
+
       <div className="App">
         <header className="header">
               <h2 id="name">
@@ -24,11 +25,7 @@ function App() {
           <Work></Work>
       </div>
 
-      <Routes>
-        <Route exact path="#work" ></Route>
-
-        <Route path="/website-design" element={<CaseStudy3/>}></Route>
-      </Routes>
+    
 
     </ChakraProvider>
   );
