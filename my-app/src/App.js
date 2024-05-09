@@ -3,11 +3,9 @@ import { ChakraProvider } from '@chakra-ui/react';
 import './App.css';
 import NavBar from './components/NavBar';
 import Home from './Home';
-import About from './about/About';
-import Work from './work/Work';
-import Fun from './fun/Fun';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CaseStudy3 from './work/CaseStudies/CaseStudy3';
+import CaseStudy1 from './work/CaseStudies/CaseStudy1';
 
 function App() {
   return (
@@ -28,7 +26,7 @@ function App() {
         <Routes>
           <Route path="/website-design" element={<CaseStudy3/>}></Route>
           <Route path="/maps" element={<CaseStudy3/>}></Route>
-          <Route path="/iterative-design" element={<CaseStudy3/>}></Route>
+          <Route path="/iterative-design" element={<CaseStudy1/>}></Route>
           <Route path="/" element={<Home/>}></Route>
         </Routes>
 

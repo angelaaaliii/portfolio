@@ -108,9 +108,13 @@ export default function CaseStudy3({title, tags, thumbnail}) {
         <div class="section-header">Solution</div>
         <p>
           To implement the final design, I utilized HTML and CSS to create 
-          a non-functional frontend-site to visualize the differences. 
+          a non-functional, frontend website to visualize the differences. 
         </p>
-        <img class ="img" src={final}></img>
+        
+        <a href="https://angelaaaliii.github.io/cs1300-responsive-redesign-freddy-hills/">
+          <img class ="img" src={final}></img>
+        </a>
+
       </div>
 
       <br></br>

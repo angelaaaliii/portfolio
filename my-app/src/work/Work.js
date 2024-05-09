@@ -13,7 +13,7 @@ export default function Work() {
       <div id = "case-studies">
 
           <CaseStudyItem
-            title = "Iterative Design"
+            title = "Warp Community Design"
             blurb = "Frontend Design"
             tags = "Figma"
             thumbnail = {CaseStudyImg1}
