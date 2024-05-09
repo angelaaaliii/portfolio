@@ -1,6 +1,11 @@
 import './CaseStudy3.css';
 import web_critique from './imgs/freddy-hills-critique.png';
 import sketches from './imgs/freddy-hills-sketches.jpeg';
+import final_sketch from './imgs/freddy-hills-final-sketch.png';
+import low_fi_phone from './imgs/freddy-hills-low-fi-phone.png';
+import lowfi from './imgs/freddy-hills-lowfi.png';
+import hifi from './imgs/freddy-hills-hifi.png';
+import final from './imgs/freddy-hills-final-site.png';
 
 export default function CaseStudy3({title, tags, thumbnail}) {
   return (
@@ -31,14 +36,14 @@ export default function CaseStudy3({title, tags, thumbnail}) {
 
       <br></br>
 
-      <div id="research-analysis">
+      <div id="research">
 
         <div class="section-header">Research</div>
 
         <p>
           To start, I began by analyzing the current website's features.
           From this, I guaged what features were effective and ineffective.
-          <ul id="bullets">
+          <ul class="bullets">
             <li>Learnability problems displayed in green</li>
             <li>Memorability problems displayed in pink</li>
             <li>Efficiency problems displayed in blue</li>
@@ -46,7 +51,7 @@ export default function CaseStudy3({title, tags, thumbnail}) {
           </ul>
         </p>
 
-        <img src={web_critique}></img>
+        <img class="img" src={web_critique}></img>
 
         <p>
           After analyzing the current site layout, it was clear 
@@ -60,6 +65,7 @@ export default function CaseStudy3({title, tags, thumbnail}) {
 
       <div id="process">
         <div class="section-header">Process</div>
+        <div class="subsection-header">Sketches</div>
         <p>
           To address the problems identified during the research phase, I knew 
           I wanted to focus on improving the organizational structure of the site by adding a 
@@ -68,25 +74,61 @@ export default function CaseStudy3({title, tags, thumbnail}) {
         </p>
         <br></br>
         <p>
-          So, I began by sketching 9 potential layouts of the website.
+          So, I began by sketching 9 potential layouts of the website:
         </p>
 
-        <img src={sketches}></img>
+        <img class="img" src={sketches}></img>
+        <p>
+          After reviewing all 9 sketches, I picked several features I found the most effective
+          in improving the site.
+          <ul class="bullets">
+            <li>Navigation bar</li>
+            <li>Having all the logistical information found on the homepage 
+                immediately 
+                (for returning users looking for address/hours information)</li>
+            <li>Photo gallery to help users understand what the business sells</li>
+          </ul>
+  
+          So, I landed on the following final sketch:
+        </p>
+        <img class="img" src={final_sketch}></img>
+
+        <div class="subsection-header">Low-Fidelity Wireframes</div>
+        <img class="img" src={low_fi_phone}></img>
+        <img class="img" src={lowfi}></img>
+
+        <div class="subsection-header">High-Fidelity Wireframes</div>
+        <img src={hifi}></img>
+
       </div>
+
+      <br></br>
 
       <div id="solution">
         <div class="section-header">Solution</div>
         <p>
-          While brainstorming ideas for the redesigned website, I wanted to focus
-          on improving the organizational structure of the site by adding a 
-          navigation bar to reduce redundancies, causing a majority of the 
-          efficiency and learnability issues.
+          To implement the final design, I utilized HTML and CSS to create 
+          a non-functional frontend-site to visualize the differences. 
         </p>
+        <img class ="img" src={final}></img>
       </div>
 
+      <br></br>
 
       <div id="learnings">
-      <div class="section-header">Learnings</div>
+        <div class="section-header">Learnings</div>
+        <p>
+          Overall, by working on this project I gained a stronger understanding
+          of UI UX principles and the design process, including sketching and creating 
+          low/high-fidelity wireframes. Furthermore, I learned how to critically critique and analyze
+           interfaces to improve learnability, memorability, efficiency, and accessibility. 
+        </p>
+        <br></br>
+        <p>
+          As this is a family-owned mini-golf and dairy store that I have grown up with and that
+          holds lots of cherished memories, I hope I was able to not only improve the site's usability, 
+          but to also convey how beloved the business is to the community! 
+        </p>
 
       </div>
 

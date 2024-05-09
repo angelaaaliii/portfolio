@@ -21,7 +21,17 @@
   font-size: calc(15px + 2vmin);
 }
 
-#bullets {
+.subsection-header {
+  margin-top: 1vh;
+  font-size: calc(7px + 2vmin);
+}
+
+.bullets {
   margin-left: 2vw;
+}
+
+.img {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
