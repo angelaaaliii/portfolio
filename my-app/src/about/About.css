@@ -28,6 +28,12 @@
   font-size: calc(30px + 2vmin);
 }
 
+#branding {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: calc(15px + 2vmin);
+}
+
 /* responsiveness */
 @media (max-width: 600px) {
   #about {

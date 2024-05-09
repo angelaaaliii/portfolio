@@ -1,3 +1,27 @@
-/* #title {
+#case-study3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 20vh;
+  padding-bottom: 5vh;
+}
+
+.case-title {
   font-size: calc(30px + 2vmin);
-} */
+}
+
+.blurb {
+  font-size: calc(5px + 2vmin);
+}
+
+.section-header {
+  font-size: calc(15px + 2vmin);
+}
+
+#bullets {
+  margin-left: 2vw;
+}
+

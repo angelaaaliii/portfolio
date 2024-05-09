@@ -1,0 +1,10 @@
+#fun {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+#fun-title {
+  font-size: calc(30px + 2vmin);
+}
