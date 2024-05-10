@@ -20,20 +20,22 @@ export default function CaseStudy1({title, tags, thumbnail}) {
       <br></br>
 
 
-      <div id="tags">Skills: Figma</div>
+      <div id="tags"><p>Skills: Figma</p></div>
 
-      <div id="role">Role: Frontend Designer</div>
+      <div id="role"><p>Role: Frontend Designer</p></div>
 
       <br></br>
 
       <div id="context"> 
         <div class="section-header">Context</div>
+        <p>
         This project was for a startup, Warp, a terminal emulator reimagined with AI and collaborative tools for better productivity.
         Working on a team with 3 other designers and under the guidance of a Senior Product Designer, 
         my team addressed adding a place in the product to connect with other users, 
         and share tools, as those features were not yet implemented.
         Additionally, since Warp is a desktop/web application, we designed for a computer screen 
         for all of our prototyping. 
+        </p>
       </div>
 
       <br></br>
