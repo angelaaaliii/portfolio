@@ -17,6 +17,12 @@
   rather than manually setting padding bottom to be 5*/
 }
 
+/* #about-pic{
+  border-width: 10px;
+  border-radius: 1px;
+  border-color: black;
+} */
+
 #about-info {
   width: 40vw;
   padding-left: 2.5vw;
