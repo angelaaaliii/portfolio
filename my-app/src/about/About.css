@@ -34,6 +34,12 @@
   font-size: calc(15px + 2vmin);
 }
 
+#socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 /* responsiveness */
 @media (max-width: 600px) {
   #about {

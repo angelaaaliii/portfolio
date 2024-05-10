@@ -1,6 +1,8 @@
 import './About.css';
 import newport_pic from './/imgs/angela-newport.JPG';
 import linkedin from './imgs/linkedin.jpeg';
+import github from './imgs/github-logo.png';
+import email from './imgs/email.png';
 
 export default function About() {
   return (
@@ -30,7 +32,19 @@ export default function About() {
           exploring national parks!</p>
           <br></br>
           <p>You can find me here: </p>
-          <img src={linkedin} width="50px"></img>
+
+          <div id="socials">
+            <a href="https://github.com/angelaaaliii">
+            <img src={github} width="30px"></img></a>
+
+            <a href="https://www.linkedin.com/in/angelaaa-liii/">
+            <img src={linkedin} width="50px"></img></a>
+
+            <a href= "mailto: angelali2021@gmail.com"> 
+            <img src={email} width="50px"></img>
+            </a>
+
+          </div>
       </div>
     </div>
   );

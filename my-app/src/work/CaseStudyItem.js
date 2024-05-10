@@ -9,7 +9,7 @@ export default function CaseStudyItem({title, blurb, tags, thumbnail, link}) {
       
         <img id ="case-study-item-img" src={thumbnail}></img>
 
-        <a id="title" href={link}>{title}</a>
+        <a id="case-study-title" href={link}>{title}</a>
 
         <div id ="case-study-item-blurb">
           <p>{blurb}</p>

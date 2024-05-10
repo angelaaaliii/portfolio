@@ -12,6 +12,11 @@
   color: #495867;
 }
 
-#title {
+#case-study-title {
   font-size: calc(15px + 2vmin);
+}
+
+#case-study-title:hover {
+  color: #FE5F55;
+  text-decoration: underline;
 }
