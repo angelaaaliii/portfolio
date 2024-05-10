@@ -14,6 +14,7 @@
 
 #case-study-item-blurb {
   margin-top: 1vh;
+  font-size: calc(3px + 2vmin);
 }
 
 #case-study-item-tags {
