@@ -6,7 +6,8 @@ export default function FunCrochet() {
     // <div id="case-study-item" onClick={handleClick}>
 
     <div id="crochet"> 
-      <img id ="crocheting-img" src={crocheting_pic}></img>
+      <img id ="crocheting-img" alt="Picture of Angela crocheting 3 birbs and pictures of a cactus birb, orange cat birb, oddish and pokeball birbs, and a graduation birb" 
+      src={crocheting_pic}></img>
 
       <a id="title">Crocheting</a>
 

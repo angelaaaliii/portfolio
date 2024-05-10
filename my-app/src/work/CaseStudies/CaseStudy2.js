@@ -121,15 +121,15 @@ export default function CaseStudy2({title, tags, thumbnail}) {
           To visualize the front-end of our web application, we created a mockup in Figma:
         </p>
         <br></br>
-        <img class="img" src={mockup}></img>
+        <img class="img" alt="image of maps web app mockup" src={mockup}></img>
 
         <div class="subsection-header">Backend Design</div>
         <p>
           To create an extendible backend, I defined the following interfaces in 
           Typescript:
         </p>
-        <img class="img" src={interface1}></img>
-        <img class="img" src={interface2}></img>
+        <img class="img" alt="image of backend interface class for routes" src={interface1}></img>
+        <img class="img" alt="image of backend interface class for destinations" src={interface2}></img>
         <p>
           After defining the data structures and classes, I created CRUD functions 
           to interact with the MongoDB backend. I created a thorough test suite for all functions, including 
@@ -150,7 +150,8 @@ export default function CaseStudy2({title, tags, thumbnail}) {
           Ultimately, after utilizing MongoDB, Node, Express, React, TypeScript, and Figma, my team and I 
           created Maps Bucket List:
         </p>
-        <video class="img" src={maps} controls></video> 
+        <video class="img" alt="video of functional Maps Bucket List where user adds a new destination and creates a new route" 
+        src={maps} controls></video> 
       </div>
 
       <br></br>

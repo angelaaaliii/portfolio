@@ -12,20 +12,22 @@ export default function About() {
       </div>
 
       <div id="about-info">
-        <h1 id="hello">Hello! I'm Angela:</h1>
-        <h2 id = "branding">backend software engineer</h2>
+        <div id="color-box">
+          <h1 id="hello">Hello! I'm Angela:</h1>
+          <h2 id = "branding">backend software engineer</h2>
+        </div>
         <br></br>
         <p>
-          I'm a current junior at Brown University, studying 
-          Computer Science & Applied Mathematics with a focus on 
-          software principles and systems.
+          I'm a current junior at <a id="link" href="https://www.brown.edu/">Brown University</a>, 
+          studying <a id="link" href="https://brown.edu/undergraduate-programs/applied-mathematics-computer-science-scb">Computer Science & Applied Mathematics</a> with 
+          a focus on software principles and systems.
         </p>
         <br></br>
         {/* <p>This summer I will be a software engineering intern at Microsoft, 
           working on Azure Cloud.
         </p> */}
-        <p>Previously, I have been a software engineering intern at Raytheon 
-          Technologies working within the aerospace survivability discipline group.
+        <p>Previously, I have been a software engineering intern at <a id="link" href="https://www.rtx.com/">Raytheon 
+          Technologies</a> working within the aerospace survivability discipline group.
         </p>
         <br></br>
         <p>When I'm not at a computer, I'm either crocheting, reading, running, reading, or
@@ -35,13 +37,13 @@ export default function About() {
 
           <div id="socials">
             <a href="https://github.com/angelaaaliii">
-            <img src={github} width="30px"></img></a>
+            <img src={github} alt="GitHub logo that links to Angela's GitHub profile" width="30px"></img></a>
 
             <a href="https://www.linkedin.com/in/angelaaa-liii/">
-            <img src={linkedin} width="50px"></img></a>
+            <img src={linkedin} alt="LinkedIn logo that links to Angela's LinkedIn profile" width="50px"></img></a>
 
             <a href= "mailto: angelali2021@gmail.com"> 
-            <img src={email} width="50px"></img>
+            <img src={email} alt="Email icon that links to Angela's email address" width="50px"></img>
             </a>
 
           </div>

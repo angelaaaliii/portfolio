@@ -39,6 +39,15 @@
   flex-direction: row;
   align-items: center;
 }
+/* 
+#color-box {
+  background-color: #BDD5EA;
+} */
+
+#link { 
+  color: #FE5F55;
+  text-decoration: underline;
+}
 
 /* responsiveness */
 @media (max-width: 600px) {

@@ -51,7 +51,7 @@ export default function CaseStudy3({title, tags, thumbnail}) {
           </ul>
         </p>
 
-        <img class="img" src={web_critique}></img>
+        <img class="img" alt="image of critique on original freddy hill farms website" src={web_critique}></img>
 
         <p>
           After analyzing the current site layout, it was clear 
@@ -77,7 +77,7 @@ export default function CaseStudy3({title, tags, thumbnail}) {
           So, I began by sketching 9 potential layouts of the website:
         </p>
 
-        <img class="img" src={sketches}></img>
+        <img class="img" alt="image of 9 sketches for website redesign" src={sketches}></img>
         <p>
           After reviewing all 9 sketches, I picked several features I found the most effective
           in improving the site.
@@ -91,14 +91,14 @@ export default function CaseStudy3({title, tags, thumbnail}) {
   
           So, I landed on the following final sketch:
         </p>
-        <img class="img" src={final_sketch}></img>
+        <img class="img" alt="image of final sketch for website redesign" src={final_sketch}></img>
 
         <div class="subsection-header">Low-Fidelity Wireframes</div>
-        <img class="img" src={low_fi_phone}></img>
-        <img class="img" src={lowfi}></img>
+        <img class="img" alt="image of low-fi wireframes for a phone screen size" src={low_fi_phone}></img>
+        <img class="img" alt="images of low-fi wireframes for laptop and tablet screen sizes" src={lowfi}></img>
 
         <div class="subsection-header">High-Fidelity Wireframes</div>
-        <img src={hifi}></img>
+        <img alt="image of hi-fi wireframes for laptop, tablet, and phone screen sizes" src={hifi}></img>
 
       </div>
 
@@ -112,7 +112,7 @@ export default function CaseStudy3({title, tags, thumbnail}) {
         </p>
         
         <a href="https://angelaaaliii.github.io/cs1300-responsive-redesign-freddy-hills/">
-          <img class ="img" src={final}></img>
+          <img alt="image of the final responsive redesigned website" class ="img" src={final}></img>
         </a>
 
       </div>
