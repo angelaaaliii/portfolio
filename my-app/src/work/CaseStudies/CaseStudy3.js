@@ -10,7 +10,7 @@ import final from './imgs/freddy-hills-final-site.png';
 export default function CaseStudy3({title, tags, thumbnail}) {
   return (
     <div id="case-study3">
-      <div class="case-title">Freddy Hill Farms Website</div>
+      <div class="case-title">Responsive Redesign</div>
       <div class="blurb">
         <h2>Redesigning a responsive website for a local mini golf and dairy 
         farm business in the Philadelphia area.</h2>
@@ -108,7 +108,7 @@ export default function CaseStudy3({title, tags, thumbnail}) {
         <div class="section-header">Solution</div>
         <p>
           To implement the final design, I utilized HTML and CSS to create 
-          a non-functional, frontend website to visualize the differences. 
+          a non-functional, responsive frontend website to visualize the differences. 
         </p>
         
         <a href="https://angelaaaliii.github.io/cs1300-responsive-redesign-freddy-hills/">

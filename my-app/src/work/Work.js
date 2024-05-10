@@ -3,6 +3,8 @@ import About from '../about/About';
 import App from '../App';
 import CaseStudyItem from './CaseStudyItem';
 import CaseStudyImg1 from './imgs/responsive-redesign-thumbnail.png';
+import warp from './imgs/warp-thumbnail.png'
+import maps from './imgs/maps-thumbnail.png';
 
 
 export default function Work() {
@@ -13,23 +15,23 @@ export default function Work() {
       <div id = "case-studies">
 
           <CaseStudyItem
-            title = "Warp Community Design"
-            blurb = "Frontend Design"
-            tags = "Figma"
-            thumbnail = {CaseStudyImg1}
-            link = "/iterative-design"
-          ></CaseStudyItem>
-
-          <CaseStudyItem
             title = "Maps Bucket List"
             blurb = "Web App Development"
             tags = "MongoDB, Express, React, Node"
-            thumbnail = {CaseStudyImg1}
+            thumbnail = {maps}
             link = "/maps"
           ></CaseStudyItem>
 
           <CaseStudyItem
-            title = "Freddy Hill Farms Website"
+            title = "Warp Community Design"
+            blurb = "Frontend Design"
+            tags = "Figma"
+            thumbnail = {warp}
+            link = "/iterative-design"
+          ></CaseStudyItem>
+
+          <CaseStudyItem
+            title = "Responsive Redesign"
             blurb = "Website Design"
             tags = "HTML, CSS"
             thumbnail = {CaseStudyImg1}

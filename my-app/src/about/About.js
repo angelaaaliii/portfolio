@@ -1,5 +1,6 @@
 import './About.css';
 import newport_pic from './/imgs/angela-newport.JPG';
+import linkedin from './imgs/linkedin.jpeg';
 
 export default function About() {
   return (
@@ -18,16 +19,18 @@ export default function About() {
           software principles and systems.
         </p>
         <br></br>
-        <p>This summer I will be a software engineering intern at Microsoft, 
+        {/* <p>This summer I will be a software engineering intern at Microsoft, 
           working on Azure Cloud.
-        </p>
+        </p> */}
         <p>Previously, I have been a software engineering intern at Raytheon 
-          Technologies working within the aerospace survivability discipline group.</p>
+          Technologies working within the aerospace survivability discipline group.
+        </p>
         <br></br>
-        <p>When I'm not at a computer, I'm either running, reading, crocheting, 
-          exploring national parks, or adding new restaurants to my Beli!</p>
+        <p>When I'm not at a computer, I'm either crocheting, reading, running, reading, or
+          exploring national parks!</p>
           <br></br>
           <p>You can find me here: </p>
+          <img src={linkedin} width="50px"></img>
       </div>
     </div>
   );

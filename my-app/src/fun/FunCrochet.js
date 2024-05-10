@@ -8,7 +8,7 @@ export default function FunCrochet() {
     <div id="crochet"> 
       <img id ="crocheting-img" src={crocheting_pic}></img>
 
-      <a id="title" href="url">Crocheting</a>
+      <a id="title">Crocheting</a>
 
       <div id ="case-study-item-blurb">
         <p>Things I've crocheted recently</p>
