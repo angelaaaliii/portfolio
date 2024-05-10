@@ -17,11 +17,16 @@
   rather than manually setting padding bottom to be 5*/
 }
 
-/* #about-pic{
-  border-width: 10px;
-  border-radius: 1px;
-  border-color: black;
-} */
+#about-pic{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-width: 2px;
+  /* border-radius: 1px; */
+  border-color: #BDD5EA;
+  border-style: solid;
+}
 
 #about-info {
   width: 40vw;
