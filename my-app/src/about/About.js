@@ -9,6 +9,7 @@ export default function About() {
     <div id="about">
       <div id="about-imgs">
         <img id="about-pic" src={newport_pic} alt="Angela at The Breakers in Newport, RI" width="500" height="600"/>
+        
       </div>
 
       <div id="about-info">
